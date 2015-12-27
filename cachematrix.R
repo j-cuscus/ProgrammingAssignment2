@@ -39,7 +39,6 @@ cacheSolve <- function(x, ...) {
   ## First check if the inverse exists
   inverse <- x$getInverse()
   if(!is.null(inverse)){
-    message("getting cached data")
     return(inverse)
   }
   
